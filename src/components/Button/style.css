@@ -1,0 +1,25 @@
+.button,
+.button * {
+    box-sizing: border-box;
+}
+.button {
+    background: var(--colors-darkblue-100, #001a72);
+    border-radius: 100px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    position: relative;
+}
+.button__button-text {
+    color: var(--textcolors-white, #ffffff);
+    text-align: center;
+    font: var(--m-text-button, 600 18px/24px 'Aktiv Grotesk', sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
